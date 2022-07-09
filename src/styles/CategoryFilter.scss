@@ -1,0 +1,22 @@
+.category-filter {
+  padding: 1rem;
+
+  .category-container {
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 1rem;
+
+    .category {
+      padding: 0.5rem 2rem;
+      border: 1px solid #f3f2f3;
+      border-radius: 10px;
+      font-size: small;
+    
+      &.selected {
+        color: white;
+        background: #409EFF;
+      }
+    }
+  }
+}

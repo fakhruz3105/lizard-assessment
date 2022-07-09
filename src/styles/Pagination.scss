@@ -1,0 +1,25 @@
+.pagination-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .pagination {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    span {
+      padding: 1rem;
+      font-weight: 200;
+
+      &.current {
+        font-weight: bold;
+      }
+
+      &:hover {
+        cursor: pointer;
+        font-weight: bold;
+      }
+    }
+  }
+}
